@@ -1,0 +1,12 @@
+{
+    "name": "jm/twig",
+    "authors": [
+        {
+            "name": "Jaffar Mallem",
+            "email": "jmtrading@live.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.7"
+    }
+}

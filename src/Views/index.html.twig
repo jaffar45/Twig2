@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+    {% block title %}
+        Mes Produits
+    {% endblock %}
+
+{% block content %}
+
+    <div class="row">
+
+        {% for produit in produits %}
+
+            <div class="col-4">
+
+                {{ produit }}
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+{% endblock %}
+
+
+
